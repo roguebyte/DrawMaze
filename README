@@ -1,0 +1,7 @@
+This is a C++/OpenGL program that draws a random 2D Maze given user inputs.
+The program uses a Disjoint Set data structure at the core to construct the maze.
+
+There's also an implementation of the A* algorithm to traverse this maze in the 
+shortest path available. Given that the maze is always drawn to have a path to an
+exit, there will always be a path found. The path is drawn as red circles in each cell
+of the maze from the entrance to the exit. 
