@@ -1,0 +1,27 @@
+﻿Build started 1/14/2012 1:26:56 PM.
+     1>Project "C:\Users\camilo\GitProjects\DrawMaze\Draw Maze\Draw Maze.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Draw Maze.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt disjointSet.cpp maze.cpp runMaze.cpp
+         disjointSet.cpp
+         maze.cpp
+     1>maze.cpp(61): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         runMaze.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\camilo\GitProjects\DrawMaze\Release\Draw Maze.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Draw Maze.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\camilo\GitProjects\DrawMaze\Release\Draw Maze.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\camilo\GitProjects\DrawMaze\Release\Draw Maze.lib" /MACHINE:X86 Release\disjointSet.obj
+         Release\maze.obj
+         Release\runMaze.obj
+         Generating code
+         Finished generating code
+         Draw Maze.vcxproj -> C:\Users\camilo\GitProjects\DrawMaze\Release\Draw Maze.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\camilo\GitProjects\DrawMaze\Release\Draw Maze.exe;#1" /manifest "Release\Draw Maze.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Draw Maze.unsuccessfulbuild".
+         Touching "Release\Draw Maze.lastbuildstate".
+     1>Done Building Project "C:\Users\camilo\GitProjects\DrawMaze\Draw Maze\Draw Maze.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.67
